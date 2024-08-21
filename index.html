@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f13ea00baa.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind and daisyUI -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+    <title>Assignment 3</title>
+</head>
+
+<body class="manrope bg-[#FFFFFF]">
+    <header class="my-[32px] mx-[20px]">
+        <nav class="flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="flex  items-center justify-center h-8 w-8 p-6 bg-[#ABEF5F]  rounded-full"><i
+                        class="fa-solid fa-arrow-right text-xl  -rotate-45"></i></div>
+                <h1 class="text-[#212121] text-[48px] font-bold">Rinterio</h1>
+            </div>
+
+            <div
+                class="flex  items-center justify-center h-8 w-8 p-6 bg-white border-black-800 rounded-full lg:hidden ">
+                <i class="fa-solid fa-bars text-3xl"></i>
+            </div>
+
+            <div class="hidden lg:flex list-none gap-3">
+                <li class="font-bold">Home</li>
+                <li>service</li>
+                <li>portfolio</li>
+                <li>blogs</li>
+                <li>contact us</li>
+            </div>
+
+            <div class="hidden lg:flex items-center">
+
+                <div class="mr-5 border border-gray-300 rounded-full bg-white px-3 py-2"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="mr-5 border border-gray-300 rounded-full bg-white px-3 py-2"><i class="fa-solid fa-cart-shopping"></i></div>
+
+                <button class="flex justify-between px-9 py-2 rounded-3xl bg-[#ABEF5F] font-bold">Book Consult <div class="ml-1 flex  items-center justify-center h-5 w-5 p-3 bg-black  rounded-full"><i class="fa-solid fa-arrow-right text-xl text-white  -rotate-45"></i></div></button>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
